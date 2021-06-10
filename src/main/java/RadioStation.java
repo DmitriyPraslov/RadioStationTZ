@@ -1,4 +1,3 @@
-import java.text.ParseException;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -22,7 +21,7 @@ public class RadioStation {
 
 
 
-    public static void main(String[] args) throws ParseException {
+    public static void main(String[] args) {
         RadioStation radioStationAustralia = new RadioStation();
         RadioHost radioHost1 = new RadioHost("Alex", 46.0, true);
         RadioHost radioHost2 = new RadioHost("Bob", 10.0, false);
