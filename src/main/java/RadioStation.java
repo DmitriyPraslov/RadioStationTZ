@@ -21,6 +21,7 @@ public class RadioStation {
     }
 
 
+
     public static void main(String[] args) throws ParseException {
         RadioStation radioStationAustralia = new RadioStation();
         RadioHost radioHost1 = new RadioHost("Alex", 46.0, true);
@@ -33,7 +34,7 @@ public class RadioStation {
         Music track3 = new Music("Disturbed","The Sound of Silence","04:08");
         Reclame reclame1 = new Reclame("Feta Cheese",5,"00:23");
         Reclame reclame2 = new Reclame("Lecho",25,"00:20");
-        Interview interview1 = new Interview("Anton Ptushkin",30,"00:10:00");
+        Interview interview1 = new Interview("Anton Ptushkin", 30,"00:10:00");
         System.out.println(translation1.addActivities(track1));
         System.out.println(translation1.addActivities(track2));
         System.out.println(translation1.addActivities(track3));
