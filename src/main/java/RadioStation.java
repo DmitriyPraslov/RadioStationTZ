@@ -1,7 +1,6 @@
 import java.text.ParseException;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 public class RadioStation {
     private List<Translation> translationList = new LinkedList<>();
